@@ -24,10 +24,10 @@ This dashboard basically shows the following insights
 
 ## Well, now lets move to technical reports- how I did it?
 The project is completed in 4 steps using 
-**Excel Power Query** - for data extraction and cleaning.
-**Python and Pandas** - for data transformation.
-**Tableau Desktop** - for designing the dashboard.
-#### Let's discuss the process step by step.
+- **Excel Power Query** - for data extraction and cleaning.
+- **Python and Pandas** - for data transformation.
+- **Tableau Desktop** - for designing the dashboard.
+#### Let's discuss the processes step by step.
 ### 1. Data extraction and cleaning.
 ### 2. Data Transformation.
 ### 3. Time Series forecasting.
