@@ -17,10 +17,11 @@ Below is the final report. See the interactive dashboard in Tableau Public.
 after image
 
 This dashboard basically shows the following insights
-- Inflation of a selected country from 1993 to 2021.
+- Inflation **(Consumer prices index)** of a selected country from 1993 to 2021.
 - Inflation of top 20 countries in a selected year. 
 - Recent inflation of a country in 2022. Is it higher than all time average ? Is it higher than expected ? 
 - Countries having higher inflation than expected. 
+**Note: The inflation data shows % of annual inflation in CPI(Consumer price index)**
 
 ## Well, now lets move to technical reports- how I did it?
 The project is completed in 4 steps using 
@@ -29,6 +30,9 @@ The project is completed in 4 steps using
 - **Tableau Desktop** - for designing the dashboard.
 #### Let's discuss the processes step by step.
 ### 1. Data extraction and cleaning.
+### Data extraction
+- The first data set used for this report is collected from [The World Bank Data](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?end=2021&start=1960&view=chart) which contains the data of inflation for all countries from 1960 to 2021.
+- The second dataset that contains % of inflation in 2022 (till quarter 2) in world's leading countries by GDP share. The data set is ectracted using Excel Power Query from ![Trading Economics Recent inflation dataset](https://tradingeconomics.com/country-list/inflation-rate)
 ### 2. Data Transformation.
 ### 3. Time Series forecasting.
 ### 4. Dashboarding.
