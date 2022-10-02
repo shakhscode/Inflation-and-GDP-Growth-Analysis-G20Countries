@@ -28,7 +28,7 @@ This dashboard basically shows the following insights
 **Excel Power Query, Pivot tables, Pivot charts.**
 
 All the stages of the project are discussed below step by step.
-### 1. Data Collection and Extraction.
+### 1. Data Collection and Extraction
 #### Dataset 1: 
 Data set 1 contains annual GDP growth rate of all the countries from 1960 to 2021. This data set is collected from [The World Bank Data:GDP Growth](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG).
 
@@ -71,7 +71,7 @@ And the cleaned dataset looks like this.
 
 ![Cleaned dataset](extraimagefiles/cleanedData.png)
 
-### 3. Forecasting and other calculations.
+### 3. Forecasting and other calculations
 In order to compare the expected inflation and real inflation in 2022, a time series forecasting is carried out using the Excel formula
 ```
 FORECAST.ETS(target_date, values, timeline, [seasonality], [data_completion], [aggregation])
@@ -92,4 +92,10 @@ But to visualize or to make a dashboard it is required to unpivot it.
 
 ![](formattedData.png)
 
-### 5. Designing the dashboard.
+### 5. Designing the dashboard
+- Dashboard is designed using Pivot charts. 
+- Slicer and timeline slicers are used to make the charts interactive.
+- Slicers are connected to multiple pivot charts to make the dashboard more interactive and dynamic.
+
+Finally here is the dashboard desinged in Excel.
+
