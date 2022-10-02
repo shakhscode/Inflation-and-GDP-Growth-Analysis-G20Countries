@@ -23,9 +23,11 @@ This dashboard basically shows the following insights
 
 **Note: The inflation data shows % of annual inflation in CPI(Consumer price index)**
 
-## Well, now lets move to technical parts.
-### Used tools: **Excel Power Query, Pivot tables, Pivot charts.**
-All the stages of the are discussed below step by step.
+## Technical details
+### Used tools:
+**Excel Power Query, Pivot tables, Pivot charts.**
+
+All the stages of the project are discussed below step by step.
 ### 1. Data Collection and Extraction.
 #### Dataset 1: 
 Data set 1 contains annual GDP growth rate of all the countries from 1960 to 2021. This data set is collected from [The World Bank Data:GDP Growth](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG).
@@ -53,21 +55,28 @@ After extracting they are merged using **Excel Power Query**.
 ### 2. Data cleaning 
 Dataset 3 and 4 are already in clean format. But dataset 1 and 2 are messy and not cleaned.
 
-The raw data looks like this.
-![Uncleaned Dataset]()
-Now its time to clean dataset 1 and dataset 2.
-- Open a blank excel workbook. Go to **Data > New Query > From File > From Excel Workbook** and open the raw dataset.
-- Using Power Query editor dataset is cleaned and only data for G20 countries from year 1998 to 2021 are loaded.
-- Similarly clean the data set 2 and load in the same [excel workbook]
+The raw data (dataset 1 and 2) look like this.
+![Uncleaned Dataset](extraimagefiles/uncleanedData.png)
 
-![Queries for data cleaning]
-![Cleaned dataset]
+Now its time to clean dataset 1 and dataset 2. For data cleaning using Power Query
+- Open a new Excel Workbook. Go to **Data > New Query > From File > From Excel Workbook** and open the raw dataset.
+- Using Power Query editor dataset is cleaned and only data for G20 countries from year 1998 to 2021 are loaded.
+- Similarly data set 2 was cleaned and loaded in the same [excel workbook](https://github.com/shakhscode/Inflation_Report-1993-2022/blob/main/cleanedForecastedUnpivotedFinalData.xlsx)
+
+Queries for data cleaning.
+
+![Queries for data cleaning](extraimagefiles/datacleaningsteps.png)
+
+And the cleaned dataset looks like this.
+
+![Cleaned dataset](extraimagefiles/cleanedData.png)
+
 ### 3. Forecasting and other calculations.
 In order to compare the expected inflation and real inflation in 2022, a time series forecasting is carried out using the Excel formula
 ```
 FORECAST.ETS(target_date, values, timeline, [seasonality], [data_completion], [aggregation])
 ```
-Other caculations include 'Average GDP growth rate and average inflation rate.
+Other parameters calculated are 'Average GDP growth rate' and 'Average inflation rate'. 
 
 ### 4. Data transformation and final join.
 - Using Power Query 'Unpivot columns' option GDP data and inflation data are unpivoted and transformed separately in the same workbook.
