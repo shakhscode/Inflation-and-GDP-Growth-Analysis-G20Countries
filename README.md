@@ -39,7 +39,8 @@ This data set contains the total GDP of G20 countris in 2021. This dataset is ex
 #### Data set 4:
 This dataset contains the inflation of G20 countries in 2022. It is extracted using **Excel Power Query** from the website [Trading Economics Inflation G20 2022](https://tradingeconomics.com/country-list/inflation-rate?continent=g20).
 
-Both dataset 3 and Dataset 4 is extracted in the same [excel file1]
+Both dataset 3 and Dataset 4 is extracted in the same [excel file](https://github.com/shakhscode/Inflation_Report-1993-2022/blob/main/GDPandRecent.xlsx)
+
 
 > To extract data from websites using **Excel Power Query**:
 - Go to **Data** tab in excel. Then select **New Quere > From Other Sources > From web**.
