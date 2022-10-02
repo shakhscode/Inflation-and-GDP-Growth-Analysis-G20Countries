@@ -1,7 +1,5 @@
-# Inflation Report: 1993-2022
+# Inflation Report: 1998-2022
 Hello ! Nice to see you here. Read the qoute below !
-
-![](https://github.com/shakhscode/Inflation_Report-1993-2022/blob/main/extraimagefiles/inflation2.jpg)
 
 Did you know this before ?
 You may beleive these or not, but you can't deny that all countries are facing economic consequences due to high inflation in 2022. Well, as I studied two major reason for high inflation all over the world in 2022 are - 
@@ -25,29 +23,52 @@ This dashboard basically shows the following insights
 
 **Note: The inflation data shows % of annual inflation in CPI(Consumer price index)**
 
-## Well, now lets move to technical reports- how I did it?
-The project is completed in 4 steps using 
-- **Excel Power Query** - for data extraction and cleaning.
-- **Python and Pandas** - for data transformation.
-- **Tableau Desktop** - for designing the dashboard.
+## Well, now lets move to technical parts.
+### Used tools: **Excel Power Query, Pivot tables, Pivot charts.**
+All the stages of the are discussed below step by step.
+### 1. Data Collection and Extraction.
+#### Dataset 1: 
+Data set 1 contains annual GDP growth rate of all the countries from 1960 to 2021. This data set is collected from [The World Bank Data:GDP Growth](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG).
 
-Let's discuss the processes step by step.
-### 1. Data extraction and cleaning.
-### Data extraction
-- The 1st dataset is extracted from [Trading Economics, GDP of G20 Countries:2021](https://tradingeconomics.com/country-list/gdp?continent=g20)
-- The 2nd data set used for this report is collected from [The World Bank Data](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?end=2021&start=1960&view=chart) which contains the data of inflation for all countries from 1960 to 2021.
-- The second data
-- The 3rd dataset that contains % of inflation in 2022 (till August 2022) of G20 world's countries. The data set is extracted from [Trading Economics Recent inflation dataset](https://tradingeconomics.com/country-list/inflation-rate)
-- The 1st and 3rd dataset is extracted using Excel Power Query. To extract data using Excel power query
+#### Dataset 2:
+Data set 2 contains annual inflation rate in all the countries of the world. It is donwloaded from [The World Bank Data: Inflation](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG).
+
+#### Dataset 3: 
+This data set contains the total GDP of G20 countris in 2021. This dataset is extracted using **Excel Power Query** from the website [Trading Economics: GDP G20 2021](https://tradingeconomics.com/country-list/gdp?continent=g20).
+
+#### Data set 4:
+This dataset contains the inflation of G20 countries in 2022. It is extracted using **Excel Power Query** from the website [Trading Economics Inflation G20 2022](https://tradingeconomics.com/country-list/inflation-rate?continent=g20).
+
+Both dataset 3 and Dataset 4 is extracted in the same [excel file1]
+
+> To extract data from websites using **Excel Power Query**:
+- Go to **Data** tab in excel. Then select **New Quere > From Other Sources > From web**.
+- Enter the link of the website and click 'Ok' and then extract the data as required.
+
+After extracting they are merged using **Excel Power Query**.
+> To merge(join) two tables from the same workbook using Power Query 
+- Go to **Data> New Query > Combine Queries > Merge**.
+
+### 2. Data cleaning 
+Dataset 2 and 3 are already cleaned when these were extracted. The raw data looks like this.Now its time to clean dataset 1 and dataset 2.
+
+- Open a blank excel workbook. Go to **Data > New Query > From File > From Excel Workbook** and open the raw dataset.
+- Using Power Query editor dataset is cleaned and only data for G20 countries from year 1991 to 2021 are loaded.
+- Similarly clean the data set 1 and load in the same [excel workbook]
+
+[a pic: a) uncleaned data: cleaning steps:cleaned data]
+
+### 3. Forecasting and other calculations.
+In order to compare the expected inflation and real inflation in 2022, a time series forecasting is carried out using the Excel formula
 ```
-Step 1: Go to Data tab > New Query> From Other Sources> From web
-Step 2: Enter the url of the website and Excel will extract live data from the website.
+FORECAST.ETS(target_date, values, timeline, [seasonality], [data_completion], [aggregation])
 ```
-### Data Cleaning. 
-- The 2nd dataset contains some null values for some years and for some countries all values are null. So rows and columns are filtered not to select null column or row using **Power Query Editor**.
-- In the report we need to visualize inflation of G20 countries and only for the years 1993 to 2021. So only useful columns and rows are selected using **Power Query Editor**
-Now our dataset is ready.
-- 1st and 3rd dataset is already cleaned and well formated, so we don't need to anything to them.
-### 2. Data Transformation.
-### 3. Time Series forecasting.
-### 4. Dashboarding.
+Other caculations include 'Average GDP growth rate and average inflation rate.
+
+### 4. Data transformation and final join.
+- Using Power Query 'Unpivot columns' option GDP data and inflation data are unpivoted and transformed separately in the same workbook.
+> To unpivot a table first select the table and then go to **Data> From Table** then selects the columns to unpivot.
+- Now 'RecentGDP_Inflation.xlxs' file is  loaded to the same workbook. 
+- Now all the unpivoted tables are merged together and  dataset is ready to visualize.
+
+### 5. Designing the dashboard.
