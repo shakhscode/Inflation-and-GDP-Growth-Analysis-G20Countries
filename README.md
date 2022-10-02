@@ -1,27 +1,20 @@
 # Inflation Report: 1998-2022
-Hello ! Nice to see you here. Read the qoute below !
+Hello ! Nice to see you here. Please read the qoute below.
 
-Did you know this before ?
-You may beleive these or not, but you can't deny that all countries are facing economic consequences due to high inflation in 2022. Well, as I studied two major reason for high inflation all over the world in 2022 are - 
+![](extraimagefiles/inflation2.jpg)
+
+Did you know this before ? You may beleive this or not, but you can't deny that all countries are facing economic slowdown due to high inflation in 2022. Well, as I studied two major reasons for high inflation all over the world in 2022 are - 
 - Covid 19 pandemic.
 - Russia vs. Ukraine war.
 
-The second reason affected me badly (that's my personal story, how I survived in Russia). 
+The second reason affected me personally. When I realised how inflation can affect normal consumers I decided to study more about inflation in different countries and  **as a curious data analyst** I gathered some data and prepared a report about inflation and GDP growth rate in G20 countries from 1998 to 2022. I have designed an interactive dashboard that shows the following insights
+- Inflation vs GDP growth rate in G20 countries in a selected year.
+- In a particular year which country had highest inflation, lowest inflation and highest GDP growth rate, lowest GDP growth rate ?
+- For a selected country inflation vs GDP growth rate from 1998 to 2021. Recent inflation in the country in 2022. Is it higher than all time average ? Is it higher than forecasted rate ? 
+- For a selected country the best year and the worst year for Inflation and GDP growth rate.
+- Which country having highest inflation in 2022? 
 
-So, as a normal consumer and  **as a data analyst** I decided to make a report on inflation of world's leading countries by GDP share. I gathered some data and now want to make a report to see the inflation in top 20 countries from 1993 to 2022.
-
-Below is the final report. See the interactive dashboard in Tableau Public.
-
-after image
-
-This dashboard basically shows the following insights
-- 
-- Inflation of a selected country from 1993 to 2021.
-- Inflation of G20 countries in a selected year. 
-- Recent inflation of a country in 2022. Is it higher than all time average ? Is it higher than expected ? 
-- Countries having higher inflation than expected. 
-
-**Note: The inflation data shows % of annual inflation in CPI(Consumer price index)**
+**Note: The inflation data shows percentage(%) of annual inflation in CPI(Consumer price index)**
 
 ## Technical details
 ### Used tools:
