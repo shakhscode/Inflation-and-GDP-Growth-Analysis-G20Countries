@@ -78,10 +78,18 @@ FORECAST.ETS(target_date, values, timeline, [seasonality], [data_completion], [a
 ```
 Other parameters calculated are 'Average GDP growth rate' and 'Average inflation rate'. 
 
-### 4. Data transformation and final join.
+### 4. Data transformation and final join
+Cleaned and merged dataset is in pivoted format.
+
+![](extraimagefiles/cleanedData.png)
+
+But to visualize or to make a dashboard it is required to unpivot it.
+
 - Using Power Query 'Unpivot columns' option GDP data and inflation data are unpivoted and transformed separately in the same workbook.
 > To unpivot a table first select the table and then go to **Data> From Table** then selects the columns to unpivot.
 - Now 'RecentGDP_Inflation.xlxs' file is  loaded to the same workbook. 
 - Now all the unpivoted tables are merged together and  dataset is ready to visualize.
+
+![](formattedData.png)
 
 ### 5. Designing the dashboard.
