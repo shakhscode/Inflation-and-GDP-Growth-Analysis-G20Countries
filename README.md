@@ -43,7 +43,7 @@ Both dataset 3 and Dataset 4 is extracted in the same [excel file](https://githu
 
 
 > To extract data from websites using **Excel Power Query**:
-- Go to **Data** tab in excel. Then select **New Quere > From Other Sources > From web**.
+- Go to **Data** tab in excel. Then select **New Query > From Other Sources > From web**.
 - Enter the link of the website and click 'Ok' and then extract the data as required.
 
 After extracting they are merged using **Excel Power Query**.
@@ -51,14 +51,17 @@ After extracting they are merged using **Excel Power Query**.
 - Go to **Data> New Query > Combine Queries > Merge**.
 
 ### 2. Data cleaning 
-Dataset 2 and 3 are already cleaned when these were extracted. The raw data looks like this.Now its time to clean dataset 1 and dataset 2.
+Dataset 3 and 4 are already in clean format. But dataset 1 and 2 are messy and not cleaned.
 
+The raw data looks like this.
+![Uncleaned Dataset]()
+Now its time to clean dataset 1 and dataset 2.
 - Open a blank excel workbook. Go to **Data > New Query > From File > From Excel Workbook** and open the raw dataset.
-- Using Power Query editor dataset is cleaned and only data for G20 countries from year 1991 to 2021 are loaded.
-- Similarly clean the data set 1 and load in the same [excel workbook]
+- Using Power Query editor dataset is cleaned and only data for G20 countries from year 1998 to 2021 are loaded.
+- Similarly clean the data set 2 and load in the same [excel workbook]
 
-[a pic: a) uncleaned data: cleaning steps:cleaned data]
-
+![Queries for data cleaning]
+![Cleaned dataset]
 ### 3. Forecasting and other calculations.
 In order to compare the expected inflation and real inflation in 2022, a time series forecasting is carried out using the Excel formula
 ```
