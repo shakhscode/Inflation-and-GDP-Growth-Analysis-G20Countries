@@ -94,3 +94,12 @@ But to visualize or to make a dashboard it is required to unpivot it.
 
 Finally here is the dashboard desinged in Excel.
 
+
+
+
+https://user-images.githubusercontent.com/76909183/193636718-cb812552-a9fa-4acb-a35a-df4fae3e9808.mp4
+
+
+
+
+
