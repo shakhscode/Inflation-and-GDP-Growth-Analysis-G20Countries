@@ -14,6 +14,8 @@ The second reason affected me personally. When I realised how inflation can affe
 - For a selected country the best year and the worst year for Inflation and GDP growth rate.
 - Which country having highest inflation in 2022? 
 
+![Dashboard](extraimagefiles/Dashboard.png)
+
 **Note: The inflation data shows percentage(%) of annual inflation in CPI(Consumer price index)**
 
 ## Technical details
