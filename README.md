@@ -3,7 +3,7 @@ Hello ! Nice to see you here. Please read the qoute below.
 
 ![](extraimagefiles/inflation2.jpg)
 
-Did you know this before ? You may beleive this or not, but you can't deny that all countries are facing economic slowdown due to high inflation in 2022. Well, as I studied two major reasons for high inflation all over the world in 2022 are - 
+Do you beleive in the above qoute ? You may beleive this or not, but you can't deny that all countries are facing economic slowdown due to high inflation in 2022. There are lot of reasons for inflation. I studied two major reasons for high inflation all over the world in 2022 are - 
 - Covid 19 pandemic.
 - Russia vs. Ukraine war.
 
