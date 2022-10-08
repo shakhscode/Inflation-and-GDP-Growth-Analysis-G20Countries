@@ -1,4 +1,4 @@
-# Inflation Report: 1998-2022
+# Ananlysis of Inflation and GDP growth in G20 Countries
 Hello ! Nice to see you here. Please read the qoute below.
 
 ![](extraimagefiles/inflation2.jpg)
@@ -87,10 +87,11 @@ But to visualize or to make a dashboard it is required to unpivot it.
 
 ![](formattedData.png)
 
-### 5. Designing the dashboard
+### 5. Designing a  dashboard in Excel
 - Dashboard is designed using Pivot charts. 
 - Slicer and timeline slicers are used to make the charts interactive.
 - Slicers are connected to multiple pivot charts to make the dashboard more interactive and dynamic.
+- Do make the dashboard dynamic first several pivot tables are created and then using MATCH() and INDEX() function highest and lowest value cells are selected.
 
 Finally here is the dashboard desinged in Excel.
 
@@ -99,7 +100,12 @@ Finally here is the dashboard desinged in Excel.
 
 https://user-images.githubusercontent.com/76909183/193636718-cb812552-a9fa-4acb-a35a-df4fae3e9808.mp4
 
+### 6. Desiging a dashboard in Tableau.
+[To experience the full features visit tableau public](link to tableu Public)
 
+[Also feel free to download the tableau workbook]
+
+The HIGHLIGHT section is completely dynamic. Based on the selected year and country highlight changes automatically. This is done using table calculation function RANK().
 
 
 
