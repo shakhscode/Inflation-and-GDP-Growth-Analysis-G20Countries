@@ -1,4 +1,4 @@
-# Ananlysis of Inflation and GDP growth in G20 Countries
+# Analysis of Inflation and GDP growth: G20 Countries
 Hello ! Nice to see you here. Please read the qoute below.
 
 ![](extraimagefiles/inflation2.jpg)
