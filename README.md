@@ -101,11 +101,15 @@ Finally here is the dashboard desinged in Excel.
 https://user-images.githubusercontent.com/76909183/193636718-cb812552-a9fa-4acb-a35a-df4fae3e9808.mp4
 
 ### 6. Desiging a dashboard in Tableau.
-[To experience the full features visit tableau public](https://public.tableau.com/app/profile/shahrukh.sultan/viz/InflationandGDPGrowthAnalysis/Dashboard1)
+Compared to Excel, ofcourse Tableau is far better to design the charts, apply interactive and dynamic filters.
+In the following dashboard, HIGHLIGHT section is completely dynamic. Based on the selected year and country highlight changes automatically. This is done using table calculation function RANK().
 
-[Also feel free to download the tableau workbook]()
+[To experience the full features of the dashboard visit tableau public.](https://public.tableau.com/app/profile/shahrukh.sultan/viz/InflationandGDPGrowthAnalysis/Dashboard1)
 
-The HIGHLIGHT section is completely dynamic. Based on the selected year and country highlight changes automatically. This is done using table calculation function RANK().
+[Also feel free to download the tableau workbook](TableauDashboard.twb)
+
+![](extraimagefiles/Dashboard In Tableau.png)
+
 
 
 
