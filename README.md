@@ -108,7 +108,7 @@ In the following dashboard, HIGHLIGHT section is completely dynamic. Based on th
 
 [Also feel free to download the tableau workbook](TableauDashboard.twb)
 
-![](extraimagefiles/Dashboard In Tableau.png)
+![](extraimagefiles/DashboardInTableau.png)
 
 
 
