@@ -106,7 +106,7 @@ In the following dashboard, HIGHLIGHT section is completely dynamic. Based on th
 
 [To experience the full features of the dashboard visit tableau public.](https://public.tableau.com/app/profile/shahrukh.sultan/viz/InflationandGDPGrowthAnalysis/Dashboard1)
 
-[Also feel free to download the tableau workbook](TableauDashboard.twb)
+[Also feel free to download the tableau workbook](https://github.com/shakhscode/Inflation-and-GDP-Growth-Analysis-G20Countries/blob/main/TableauDashboard.twb)
 
 ![](extraimagefiles/DashboardInTableau.png)
 
