@@ -91,7 +91,7 @@ But to visualize or to make a dashboard it is required to unpivot it.
 - Dashboard is designed using Pivot charts. 
 - Slicer and timeline slicers are used to make the charts interactive.
 - Slicers are connected to multiple pivot charts to make the dashboard more interactive and dynamic.
-- Do make the dashboard dynamic first several pivot tables are created and then using MATCH() and INDEX() function highest and lowest value cells are selected.
+- To make the dashboard dynamic first several pivot tables are created and then using MATCH() and INDEX() function highest and lowest value cells are selected.
 
 Finally here is the dashboard desinged in Excel. (Previously I worked with Excel charts, but its my first dashboard in Excel)
 
