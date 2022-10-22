@@ -1,28 +1,36 @@
 # Inflation and GDP Growth Analysis: G20 Countries
-Hello ! Nice to see you here. Please read the qoute below.
+### Aim of the project:
+Analysing inflation and GDP growth rate in G20 countries and preparing a visual report that shows the following insights
+- How inflation and GDP growth rate changed in G20 countries from 1998 to 2022.
+- In a particular year which country faced highest inflation, lowest inflation and had highest GDP growth rate, lowest GDP growth rate ?
+- For a particular G20 country which was the best year and the worst year for Inflation and GDP growth rate.
+- Is inflation in 2022 higher than all time average ? Is it higher than forecasted rate ? 
 
-![](extraimagefiles/inflation2.jpg)
-
-Do you beleive in the above qoute ? You may beleive this or not, but you can't deny that all countries are facing economic slowdown due to high inflation in 2022. There are lot of reasons for inflation. I studied two major reasons for high inflation all over the world in 2022 are - 
-- Covid 19 pandemic.
-- Russia vs. Ukraine war.
-
-The second reason affected me personally. When I realised how inflation can affect normal consumers I decided to study more about inflation in different countries and  **as a curious data analyst** I gathered some data and prepared a report about inflation and GDP growth rate in G20 countries from 1998 to 2022. I have designed an interactive dashboard that shows the following insights
-- Inflation vs GDP growth rate in G20 countries in a selected year.
-- In a particular year which country had highest inflation, lowest inflation and highest GDP growth rate, lowest GDP growth rate ?
-- For a selected country inflation vs GDP growth rate from 1998 to 2021. Recent inflation in the country in 2022. Is it higher than all time average ? Is it higher than forecasted rate ? 
-- For a selected country the best year and the worst year for Inflation and GDP growth rate.
-- Which country having highest inflation in 2022? 
-
-![Dashboard](extraimagefiles/Dashboard.png)
-
-**Note: The inflation data shows percentage(%) of annual inflation in CPI(Consumer price index)**
-
-## Technical details
 ### Used tools:
-**Excel Power Query, Pivot tables, Pivot charts.**
+- Excel Power Query - For data extraction and data cleaning
+- Pivot Tables and Pivot Charts - To design an interactive dashboard.
 
-All the stages of the project are discussed below step by step.
+### Experience gained:
+Data Extraction,Data Cleaning, Data Transformation and Integration, Dashboarding
+
+### Final Output:
+
+#### Dashboard in Excel
+
+https://user-images.githubusercontent.com/76909183/193636718-cb812552-a9fa-4acb-a35a-df4fae3e9808.mp4
+
+**Note: The dashboard shows percentage(%) of annual inflation in CPI(Consumer price index)**
+
+(Previously I worked with Excel charts only, but its my first time designing a dashboard in Excel using Pivot tables and Pivot charts.)
+
+
+#### Dashboard in Tableau
+I have also designed a dashboard in Tableau that has simillar interactive and dynamic features. To experience the full features of the dashboard [please visit my tableau public profile.](https://public.tableau.com/app/profile/shahrukh.sultan/viz/InflationandGDPGrowthAnalysis/Dashboard1)
+![](extraimagefiles/DashboardInTableau.png)
+
+(You can download the tableau workbook, it is uploaded as TableauDashboard.twb)
+
+## Detailed Explanation
 ### 1. Data Collection and Extraction
 #### Dataset 1: 
 Data set 1 contains annual GDP growth rate of all the countries from 1960 to 2021. This data set is collected from [The World Bank Data:GDP Growth](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG).
@@ -93,22 +101,20 @@ But to visualize or to make a dashboard it is required to unpivot it.
 - Slicers are connected to multiple pivot charts to make the dashboard more interactive and dynamic.
 - To make the dashboard dynamic first several pivot tables are created and then using MATCH() and INDEX() function highest and lowest value cells are selected.
 
-Finally here is the dashboard desinged in Excel. (Previously I worked with Excel charts, but its my first dashboard in Excel)
 
-
-
-
-https://user-images.githubusercontent.com/76909183/193636718-cb812552-a9fa-4acb-a35a-df4fae3e9808.mp4
 
 ### 6. Desiging a dashboard in Tableau.
 Compared to Excel, ofcourse Tableau is far better to design the charts, apply interactive and dynamic filters.
 In the following dashboard, HIGHLIGHT section is completely dynamic. Based on the selected year and country highlight changes automatically. This is done using table calculation function RANK().
 
-[To experience the full features of the dashboard visit tableau public.](https://public.tableau.com/app/profile/shahrukh.sultan/viz/InflationandGDPGrowthAnalysis/Dashboard1)
+## Motivation behind the project
+![](extraimagefiles/inflation2.jpg)
 
-(You can download the tableau workbook, it is uploaded as TableauDashboard.twb)
+Do you beleive in the above quote ? You may beleive this or not, but you can't deny that all countries are facing economic slowdown due to high inflation in 2022. There are lot of reasons for inflation. As I studied in some financial articles two major reasons for record high inflation around the world in 2022 are - 
+- Covid 19 pandemic.
+- Russia vs. Ukraine war.
 
-![](extraimagefiles/DashboardInTableau.png)
+The second reason affected me personally (I was in Russia till sept. 2022 and suffered a lot as a student due to high inflation in essential commodities) So, when I realised how inflation can affect normal consumers, I decided to study more about inflation in different countries and  **as a curious data analyst** I gathered some data and prepared a report about inflation and GDP growth rate in G20 countries from 1998 to 2022. I had choosen only G20 countries, as G20 countries contribute almost 85% of world's GDP and includes all the major economies of the world.
 
 
 
