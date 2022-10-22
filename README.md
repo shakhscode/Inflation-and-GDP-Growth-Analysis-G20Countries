@@ -105,8 +105,9 @@ But to visualize or to make a dashboard it is required to unpivot it.
 
 ### 6. Desiging a dashboard in Tableau.
 Compared to Excel, ofcourse Tableau is far better to design the charts, apply interactive and dynamic filters.
-In the following dashboard, HIGHLIGHT section is completely dynamic. Based on the selected year and country highlight changes automatically. This is done using table calculation function RANK().
+In the [above dashboard](#dashboard-in-tableau), HIGHLIGHT section is completely dynamic. Based on the selected year and country highlight changes automatically. This is done using table calculation function RANK().
 
+***
 ## Motivation behind the project
 ![](extraimagefiles/inflation2.jpg)
 
