@@ -40,7 +40,7 @@ I have also designed a dashboard in Tableau that has simillar interactive and dy
 
 [4. Data transformation and final join](#4-data-transformation-and-final-join)
 
-[5. Designing a  dashboard in Excel](https://github.com/shakhscode/Inflation-and-GDP-Growth-Analysis-G20Countries/edit/main/README.md#5-designing-a--dashboard-in-excel)
+[5. Designing a dashboard in Excel](#5-designing-a-dashboard-in-excel)
 
 [6. Desiging a dashboard in Tableau](#6-desiging-a-dashboard-in-tableau)
 
@@ -111,7 +111,7 @@ But to visualize or to make a dashboard it is required to unpivot it.
 ![](formattedData.png)
 
 
-### 5. Designing a  dashboard in Excel
+### 5. Designing a dashboard in Excel
 - Dashboard is designed using Pivot charts. 
 - Slicer and timeline slicers are used to make the charts interactive.
 - Slicers are connected to multiple pivot charts to make the dashboard more interactive and dynamic.
