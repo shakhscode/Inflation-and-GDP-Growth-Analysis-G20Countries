@@ -31,6 +31,21 @@ I have also designed a dashboard in Tableau that has simillar interactive and dy
 (You can download the tableau workbook, it is uploaded as TableauDashboard.twb)
 
 ## Detailed Explanation
+#### Contents of the repository
+[1. Data Collection and Extraction](#1-data-collection-and-extraction)
+
+[2. Data cleaning](#2-data-cleaning)
+
+[3. Forecasting and other calculations](#3-forecasting-and-other-calculations)
+
+[4. Data transformation and final join](#4-data-transformation-and-final-join)
+
+[5. Designing a  dashboard in Excel](https://github.com/shakhscode/Inflation-and-GDP-Growth-Analysis-G20Countries/edit/main/README.md#5-designing-a--dashboard-in-excel)
+
+[6. Desiging a dashboard in Tableau](#6-desiging-a-dashboard-in-tableau)
+
+[Motivation behind the project](#motivation-behind-the-project)
+
 ### 1. Data Collection and Extraction
 #### Dataset 1: 
 Data set 1 contains annual GDP growth rate of all the countries from 1960 to 2021. This data set is collected from [The World Bank Data:GDP Growth](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG).
@@ -95,6 +110,7 @@ But to visualize or to make a dashboard it is required to unpivot it.
 
 ![](formattedData.png)
 
+
 ### 5. Designing a  dashboard in Excel
 - Dashboard is designed using Pivot charts. 
 - Slicer and timeline slicers are used to make the charts interactive.
@@ -103,7 +119,7 @@ But to visualize or to make a dashboard it is required to unpivot it.
 
 
 
-### 6. Desiging a dashboard in Tableau.
+### 6. Desiging a dashboard in Tableau
 Compared to Excel, ofcourse Tableau is far better to design the charts, apply interactive and dynamic filters.
 In the [above dashboard](#dashboard-in-tableau), HIGHLIGHT section is completely dynamic. Based on the selected year and country highlight changes automatically. This is done using table calculation function RANK().
 
