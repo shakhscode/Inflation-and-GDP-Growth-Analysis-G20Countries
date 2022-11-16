@@ -131,7 +131,11 @@ Do you beleive in the above quote ? You may beleive this or not, but you can't d
 - Covid 19 pandemic.
 - Russia vs. Ukraine war.
 
-The second reason affected me personally (I was in Russia till sept. 2022 and suffered a lot as a student due to high inflation in essential commodities) So, when I realised how inflation can affect normal consumers, I decided to study more about inflation in different countries and  **as a curious data analyst** I gathered some data and prepared a report about inflation and GDP growth rate in G20 countries from 1998 to 2022. I had choosen only G20 countries, as G20 countries contribute almost 85% of world's GDP and includes all the major economies of the world.
+The second reason affected me personally. I was in Saint Petersburg (Second largest Russian City) till September. The war was started on 24th Feb. As an international student for the first two weeks did not feel any change due to the war. But after 2 weeks I realised how a war impacts both the countries.
+ 
+After two weeks price of every essential commodity started increasing. As a student with limited budget I suffered a lot. Had to pay 20% to 130% more on the groceries, food items I used to buy. Although I studied Inflation in secondary school, but that was the first time I experienced inflation closely just within 2 weeks. 
+
+After that, I started following news about inflation around the world and the term inflation was consitently in my mind.**So, as a curious data analyst** I gathered some data and prepared a report about inflation and GDP growth rate in G20 countries from 1998 to 2022. I had chosen only G20 countries, as G20 countries contribute almost 85% of world's GDP and includes all the major economies of the world.
 
 
 
